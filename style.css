@@ -1,0 +1,199 @@
+body{
+    font-size: 20px;
+    background: #f5dbe6;
+}
+
+p{
+    text-align: justify-all;
+}
+
+td{
+    padding: 15px;
+    width: 33%;
+    text-align: center;
+}
+
+
+.logo{
+    text-align: center;
+    padding:0px;
+    margin:50px;
+}
+
+.menu{
+    text-align: center;
+    font-weight: bold;
+    margin:50px;
+    padding:10px;
+    margin-bottom: 80px;
+}
+.menu a{
+    color: #7a583f;
+    text-decoration: none;
+    padding: 0 50px;
+}
+
+.couverture{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    height: 90px;
+    margin-top: 90px;
+    background: url(../images/couverture.jpg) center center;
+}
+
+.couverture-commande{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 90px;
+    background: url(../images/message.jpg) center center;
+    background-size: cover;
+}
+
+.couverture-produits{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #f4478d;
+    color: #fff;
+    padding: 50px 0;
+    background-size: cover;
+}
+
+.contenu{
+    width: 80%;
+    margin-top: 50px;
+    margin: 0 auto;
+    background: white;
+    padding: 60px 10px;
+    text-align: center;
+}
+
+
+.liste-produits{
+    width: 76%;
+    margin: 0 auto;
+    color: #7a583f;
+    height: 50px;
+}
+.liste-produits img{
+    width: 100%;
+}
+h4 { 
+    color: red; 
+    margin: 0px;
+    font-size: 18px;
+}
+
+nav{
+    width: 100%;
+    background-color:;
+    margin-left: 200px;
+    margin-top: -75px;
+
+
+}
+nav > ul{
+    margin: 80px;
+    padding: 0px;
+}
+nav > ul::after{
+    display: block;
+    clear: both;
+
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+    
+}
+nav > ul > li > a{
+    padding: 20px 3px;
+    text-align: center;
+    
+}
+nav li{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+.submenu{
+display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: ;
+}
+
+nav li:hover 
+ .submenu{
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+
+.submenu li a{
+    padding: 20px 30px;
+    font-size: 18px;
+    width: 270px;
+    text-align: left;
+
+}
+
+.
+
+.contact{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.contact textarea
+{
+    width: 80%;
+    background: #f5dbe6;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.contact label{
+    text-align: left !important;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: #f4478d;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.valider
+{
+    height: 50px;
+    width: 100px;
+    background-color: #f4478d;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    float: right;
+}
